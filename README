@@ -1,0 +1,10 @@
+# USAGE
+
+The script contains a query that understand cron syntax stored in db columns
+The query can be used in other languages (Perl, Golang, Python etc)
+
+1) Create the table in DB
+2) Provide Env variables to connect
+3) Edit crontab calling your script every minutes
+(eg * * * * * /usr/bin/php /path/to/cronjobs.php ...)
+4) Insert jobs in DB (using SQL, or your CMS)
